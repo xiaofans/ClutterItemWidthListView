@@ -146,6 +146,9 @@ public class ClutterListView extends AdapterView{
             aboveHeight = k4;
             layoutparams.height = k4;
             layoutparams.width = l4;
+            if(l4 > width){
+                l4 = width;
+            }
             view1.setLayoutParams(layoutparams);
             //   Log.w(TAG,"view1 width and height is::" + k4 +":" + l4);
             mChildrenArray.put(i,view1);
