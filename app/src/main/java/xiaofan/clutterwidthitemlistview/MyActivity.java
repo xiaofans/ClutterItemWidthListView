@@ -25,7 +25,7 @@ public class MyActivity extends ActionBarActivity {
         String[] data = new String[]{"一","一二","一二三","一二三四","一二三四五","一二三四五六","一二三四五六七","一二三四五六八","一二三四五六九",
         "天干物燥","再唱不出那样的歌曲","因为爱情,不会轻易悲伤","我们好像在哪见过,你记得吗"
         };
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.list_item,data);
         listView.setAdapter(adapter);
     }
 
